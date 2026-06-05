@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: icecreampos-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm run server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGINS
+        sync: false

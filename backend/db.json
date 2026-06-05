@@ -1,0 +1,321 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "email": "admin@icecream.com",
+      "password": "admin123"
+    }
+  ],
+  "iceCream": [
+    {
+      "id": 1,
+      "name": "Dark Chocolate",
+      "Flavor": "Chocolate",
+      "Description": "Rich, creamy chocolate ice cream.",
+      "Price": 250,
+      "Stock": 61
+    },
+    {
+      "id": 2,
+      "name": "Classic Vanilla",
+      "Flavor": "Vanilla",
+      "Description": "Classic vanilla ice cream.",
+      "Price": 200,
+      "Stock": 58
+    },
+    {
+      "id": 3,
+      "name": "Neapolitan",
+      "Flavor": "Strawberry",
+      "Description": "Fresh and fruity strawberry ice cream.",
+      "Price": 300,
+      "Stock": 90
+    }
+  ],
+  "cart": [
+    {
+      "name": "Dark Chocolate",
+      "Flavor": "Chocolate",
+      "Description": "Rich, creamy chocolate ice cream.",
+      "Price": 250,
+      "Quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "Dark Chocolate",
+      "Flavor": "Chocolate",
+      "Description": "Rich, creamy chocolate ice cream.",
+      "Price": 250,
+      "Quantity": 1,
+      "id": 2
+    },
+    {
+      "name": "Dark Chocolate",
+      "Flavor": "Chocolate",
+      "Description": "Rich, creamy chocolate ice cream.",
+      "Price": 250,
+      "Quantity": 1,
+      "id": 3
+    }
+  ],
+  "businessInventory": [
+    {
+      "id": 1,
+      "itemName": "Whole Milk",
+      "category": "Dairy",
+      "unit": "Liters",
+      "quantityOnHand": 130,
+      "reorderLevel": 40,
+      "unitCost": 58,
+      "lastUpdated": "2026-06-05"
+    },
+    {
+      "id": 2,
+      "itemName": "Cocoa Powder",
+      "category": "Ingredients",
+      "unit": "Kg",
+      "quantityOnHand": 28,
+      "reorderLevel": 5,
+      "unitCost": 420,
+      "lastUpdated": "2026-06-05"
+    },
+    {
+      "id": 3,
+      "itemName": "Sugar",
+      "category": "Ingredients",
+      "unit": "Kg",
+      "quantityOnHand": 85,
+      "reorderLevel": 20,
+      "unitCost": 45,
+      "lastUpdated": "2026-06-02"
+    },
+    {
+      "id": 4,
+      "itemName": "Waffle Cones",
+      "category": "Packaging",
+      "unit": "Pieces",
+      "quantityOnHand": 500,
+      "reorderLevel": 150,
+      "unitCost": 8,
+      "lastUpdated": "2026-06-01"
+    },
+    {
+      "id": 5,
+      "itemName": "Strawberry Puree",
+      "category": "Ingredients",
+      "unit": "Liters",
+      "quantityOnHand": 25,
+      "reorderLevel": 8,
+      "unitCost": 180,
+      "lastUpdated": "2026-05-28"
+    },
+    {
+      "id": 6,
+      "itemName": "Fresh Cream",
+      "category": "Dairy",
+      "unit": "Liters",
+      "quantityOnHand": 20,
+      "reorderLevel": 10,
+      "unitCost": 95,
+      "lastUpdated": "2026-06-05"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "invoiceNo": "INV-2026-0142",
+      "vendor": "Dairy Fresh Suppliers",
+      "itemName": "Whole Milk",
+      "category": "Dairy",
+      "quantity": 100,
+      "unit": "Liters",
+      "unitPrice": 55,
+      "totalAmount": 5500,
+      "purchaseDate": "2026-06-04",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "invoiceNo": "INV-2026-0141",
+      "vendor": "Sweet Ingredients Co.",
+      "itemName": "Cocoa Powder",
+      "category": "Ingredients",
+      "quantity": 10,
+      "unit": "Kg",
+      "unitPrice": 420,
+      "totalAmount": 4200,
+      "purchaseDate": "2026-06-03",
+      "status": "Paid"
+    },
+    {
+      "id": 3,
+      "invoiceNo": "INV-2026-0138",
+      "vendor": "PackRight Traders",
+      "itemName": "Waffle Cones",
+      "category": "Packaging",
+      "quantity": 300,
+      "unit": "Pieces",
+      "unitPrice": 8,
+      "totalAmount": 2400,
+      "purchaseDate": "2026-06-01",
+      "status": "Paid"
+    },
+    {
+      "id": 4,
+      "invoiceNo": "INV-2026-0125",
+      "vendor": "Sweet Ingredients Co.",
+      "itemName": "Sugar",
+      "category": "Ingredients",
+      "quantity": 50,
+      "unit": "Kg",
+      "unitPrice": 45,
+      "totalAmount": 2250,
+      "purchaseDate": "2026-05-20",
+      "status": "Paid"
+    },
+    {
+      "id": 5,
+      "invoiceNo": "INV-2026-0110",
+      "vendor": "Fruit Valley Foods",
+      "itemName": "Strawberry Puree",
+      "category": "Ingredients",
+      "quantity": 15,
+      "unit": "Liters",
+      "unitPrice": 180,
+      "totalAmount": 2700,
+      "purchaseDate": "2026-05-10",
+      "status": "Pending"
+    },
+    {
+      "id": 6,
+      "invoiceNo": "INV-78214693",
+      "vendor": "Manual Entry",
+      "itemName": "Fresh Cream",
+      "category": "Dairy",
+      "quantity": 20,
+      "unit": "Liters",
+      "unitPrice": 95,
+      "totalAmount": 1900,
+      "purchaseDate": "2026-06-05",
+      "status": "Paid"
+    },
+    {
+      "id": 7,
+      "invoiceNo": "INV-78223501",
+      "vendor": "Manual Entry",
+      "itemName": "Whole Milk",
+      "category": "General",
+      "quantity": 10,
+      "unit": "Units",
+      "unitPrice": 58,
+      "totalAmount": 580,
+      "purchaseDate": "2026-06-05",
+      "status": "Paid"
+    },
+    {
+      "id": 8,
+      "invoiceNo": "INV-78265676",
+      "vendor": "Manual Entry",
+      "itemName": "Cocoa Powder",
+      "category": "Ingredients",
+      "quantity": 10,
+      "unit": "Kg",
+      "unitPrice": 420,
+      "totalAmount": 4200,
+      "purchaseDate": "2026-06-05",
+      "status": "Paid"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "orderId": "ORD-2026-0501",
+      "itemName": "Dark Chocolate",
+      "quantity": 2,
+      "unitPrice": 250,
+      "totalAmount": 500,
+      "saleDate": "2026-06-05"
+    },
+    {
+      "id": 2,
+      "orderId": "ORD-2026-0502",
+      "itemName": "Classic Vanilla",
+      "quantity": 3,
+      "unitPrice": 200,
+      "totalAmount": 600,
+      "saleDate": "2026-06-05"
+    },
+    {
+      "id": 3,
+      "orderId": "ORD-2026-0503",
+      "itemName": "Neapolitan",
+      "quantity": 1,
+      "unitPrice": 300,
+      "totalAmount": 300,
+      "saleDate": "2026-06-05"
+    },
+    {
+      "id": 4,
+      "orderId": "ORD-2026-0498",
+      "itemName": "Dark Chocolate",
+      "quantity": 4,
+      "unitPrice": 250,
+      "totalAmount": 1000,
+      "saleDate": "2026-06-04"
+    },
+    {
+      "id": 5,
+      "orderId": "ORD-2026-0495",
+      "itemName": "Classic Vanilla",
+      "quantity": 2,
+      "unitPrice": 200,
+      "totalAmount": 400,
+      "saleDate": "2026-06-03"
+    },
+    {
+      "id": 6,
+      "orderId": "ORD-2026-0490",
+      "itemName": "Neapolitan",
+      "quantity": 5,
+      "unitPrice": 300,
+      "totalAmount": 1500,
+      "saleDate": "2026-06-02"
+    },
+    {
+      "id": 7,
+      "orderId": "ORD-2026-0480",
+      "itemName": "Dark Chocolate",
+      "quantity": 6,
+      "unitPrice": 250,
+      "totalAmount": 1500,
+      "saleDate": "2026-05-28"
+    },
+    {
+      "id": 8,
+      "orderId": "ORD-2026-0465",
+      "itemName": "Classic Vanilla",
+      "quantity": 8,
+      "unitPrice": 200,
+      "totalAmount": 1600,
+      "saleDate": "2026-05-15"
+    },
+    {
+      "id": 9,
+      "orderId": "ORD-2026-0450",
+      "itemName": "Neapolitan",
+      "quantity": 3,
+      "unitPrice": 300,
+      "totalAmount": 900,
+      "saleDate": "2026-04-22"
+    },
+    {
+      "id": 10,
+      "orderId": "ORD-2026-0440",
+      "itemName": "Dark Chocolate",
+      "quantity": 10,
+      "unitPrice": 250,
+      "totalAmount": 2500,
+      "saleDate": "2026-04-10"
+    }
+  ]
+}

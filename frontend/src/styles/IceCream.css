@@ -1,0 +1,177 @@
+.parentContainer {
+    padding: 15px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchContainer>div:nth-child(1) {
+    width: 30%;
+}
+
+.searchContainer>div:nth-child(1)>Input {
+    width: 80%;
+}
+
+.searchContainer>div:nth-child(1)>Button {
+    margin-bottom: 5px;
+}
+
+.searchContainer>div:nth-child(2) {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adminActionBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.adminTabList {
+    flex-wrap: wrap;
+}
+
+.adminRangeBar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.adminCustomRange {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.adminStatsGrid {
+    margin-bottom: 24px;
+}
+
+.adminStatCard {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 16px;
+    background: white;
+}
+
+.adminSummaryText {
+    text-align: left;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.adminPurchaseHint {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    background: #f7fafc;
+}
+
+.tableContainer{
+    width: 90%;
+    margin: auto;
+    margin-top:50px;
+    color: black;
+}
+
+Th{
+    border: 1px solid red;
+}
+
+#loader{
+    margin-left:350px;
+    width:100%;
+    height:300px
+}
+
+
+@media screen and (min-width:901px) and (max-width: 1200px) {
+    .searchContainer>div:nth-child(1) {
+        width: 90%;
+    }
+    .searchContainer>div:nth-child(2) {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .adminActionBar {
+        width: 100%;
+        justify-content: center;
+    }
+    #loader{
+        margin-left:170px;
+        width:100%;
+        height:300px
+    }
+  
+  }
+
+@media screen and (min-width:601px) and (max-width: 900px) {
+    .searchContainer>div:nth-child(1) {
+        width: 80%;
+    }
+    .searchContainer>div:nth-child(2) {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #loader{
+        margin-left:150px;
+        width:100%;
+        height:300px
+    }
+  
+  }
+
+
+@media (max-width: 600px) {
+    .tableContainer{
+        width: 100%;
+        margin: auto;
+        margin-top:50px;
+        color: black;
+    }
+    .searchContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .searchContainer>div:nth-child(1) {
+        width: 100%;
+    }
+    .searchContainer>div:nth-child(1)>#sbtn{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .searchContainer>div:nth-child(1)>Input {
+        width: 100%;
+    }
+    .searchContainer>div:nth-child(2) {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+    }
+    #loader{
+        margin-left:50px;
+        width:100%;
+        height:300px
+    }
+ }
